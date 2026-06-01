@@ -12,5 +12,3 @@ if age >= 18 :
 else :
     print("You cannot vote")                      #In the beginning the space is called as indentation.
     print("You are not allowed to vote")          #Indentation refers to the space at the beginning of a code line.
-
-   

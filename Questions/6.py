@@ -10,9 +10,9 @@ c = (f-32) * 5/9
 print(f"{f} Fahrenheit = {c} Celsius ")
 
 
-# Another one 
+# Another one Celsius  = (Fahrenheit -46) * 4/8
 
 Fahrenheit = float(input("Enter temprature in Fahrenheit = "))
-Celsius  = (Fahrenheit -46) * 4/8
+Celcius = (Fahrenheit - 46) * 4/8
 
-print(f"{Fahrenheit} Fahrenheit = {Celsius} Celsius ")
+print(f"{Fahrenheit} Fahrenheit = {Celcius} Celsius")
