@@ -1,5 +1,5 @@
 """
-Wrrite a program to calculate how many numbers are divisible by 7 frim 1 to 100.
+Wrrite a program to calculate how many numbers are divisible by 7 from 1 to 100.
 """
 
 count = 0 
