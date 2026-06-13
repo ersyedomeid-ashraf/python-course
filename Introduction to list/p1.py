@@ -19,3 +19,13 @@ print(Zahra)
 
 print(type(Syed))
 print(type(Zahra))
+
+
+x = [1, 2, 3, 344.3, 54.324, "BMW M5 Competition", True, False]
+
+y = [21.322, 53344, 3.43, "Python", True, False]
+
+z = [234.43, 455, 543, "Bareilly", True, False]
+
+print(x, y, z)
+print(type(x), (y), (z))
