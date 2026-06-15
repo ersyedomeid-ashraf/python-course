@@ -6,13 +6,12 @@ my_list = [32, 43, 54, 67, 87, 97, 34, 44, 66, 88, 90, 20]
 
 count = 0
 
-for i in range(0, len(my_list)):
+for i in my_list:
     if i % 2 == 0:
-        count = count + my_list[i]
+        count = count + 1
 
 
-print(count)
-
+print(f"Total even numbers= {count}")
 
 """
 Count the number of odd numbers present in that list.
@@ -22,9 +21,9 @@ my_list = [32, 43, 54, 67, 87, 97, 34, 44, 66, 88, 90, 20]
 
 count = 0
 
-for i in range(0, len(my_list)):
+for i in my_list:
     if i % 2 != 0:
-        count = count + my_list[i]
+        count = count + 1
 
 
-print(count)
+print(f"Total odd numbers= {count}")
