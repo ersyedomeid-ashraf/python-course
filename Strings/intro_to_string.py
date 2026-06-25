@@ -50,3 +50,17 @@ s = input("Enter a string: ")
 
 for i in range(len(s)):
     print(i, s[i])
+
+
+"""
+Write a program to count total characters in a string.
+"""
+
+s = input("Enter a string: ")
+
+count = 0
+
+for ch in s:
+    count += 1
+
+print(count)
