@@ -26,3 +26,17 @@ for ch in my_string:  # by value
 
 for i in range(len(my_string) - 1, -1, -1):
     print(my_string[i])
+
+
+"""
+Write a program to reverse a string.
+"""
+
+s = input("Enter a string: ")
+
+reverse = ""
+
+for ch in s:
+    reverse = ch + reverse
+
+print("Reversed String:", reverse)
