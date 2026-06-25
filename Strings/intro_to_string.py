@@ -40,3 +40,13 @@ for ch in s:
     reverse = ch + reverse
 
 print("Reversed String:", reverse)
+
+
+"""
+Write a program to print all characters with their positions.
+"""
+
+s = input("Enter a string: ")
+
+for i in range(len(s)):
+    print(i, s[i])
