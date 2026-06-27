@@ -14,7 +14,7 @@ for ch in my_string:
 print(count)
 
 
-# We Write this code in the ASCII form
+# Count alphabets using ASCII values.
 
 my_string = "abcd1234"
 
