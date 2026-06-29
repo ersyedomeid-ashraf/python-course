@@ -66,3 +66,19 @@ if a.isdigit():
 
 else:
     print("Cannot be converted into integer")
+
+
+# Split and Join
+
+# Split - split() is a string method that breaks a string into a list of smaller parts using a separator.
+
+
+a = "this is a python program"
+words = a.split("-")
+print((words))
+
+
+# if we check how many words ar there
+a = "this-is-a-python-program"
+words = a.split("-")
+print(len(words))
