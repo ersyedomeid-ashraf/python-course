@@ -82,3 +82,30 @@ print((words))
 a = "this-is-a-python-program"
 words = a.split("-")
 print(len(words))
+
+
+# Join - join() is a string method that combines the elements of a list into a single string using a separator.
+
+my_list = ["abc", "lalla", "python", "programming"]
+
+my_string = " ".join(my_list)
+print(my_string)
+print(type, (my_string))
+
+
+# What if i did
+
+my_list = ["abc", "lalla", "python", "programming"]
+
+my_string = "-".join(my_list)
+print(my_string)
+print(type, (my_string))
+
+
+# What if i want integer value also
+
+my_list = ["abc", "lalla", "python", "programming", 72, 81, 64]
+
+my_string = " ".join(str(i) for i in (my_list))
+print(my_string)
+print(type, (my_string))
