@@ -127,3 +127,25 @@ print(c)
 
 c = my_string.count("i")
 print(c)
+
+
+# Startswith string method
+
+my_string = "hello python program"
+
+c = my_string.startswith("hello")
+print(c)
+
+c = my_string.startswith("python")
+print(c)
+
+
+# Endswith string method
+
+my_string = "the python programming"
+
+c = my_string.endswith("programming")
+print(c)
+
+c = my_string.endswith("the")
+print(c)
