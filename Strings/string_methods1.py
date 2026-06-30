@@ -173,3 +173,33 @@ print(c)
 
 c = my_string.find("z")
 print(c)
+
+
+# Replace string method
+
+my_string = "minimum maximum minimize"
+
+c = my_string.replace("m", "t")
+print(c)
+
+
+c = my_string.replace("i", "e")
+print(c)
+
+
+# Strip string method
+
+my_string = "     lalla lalla lori       "
+
+c = my_string.strip()
+
+print(my_string)
+print(c)
+
+
+my_string = "@@@@@@@@@lalla lalla lori       "
+
+c = my_string.strip("@")
+
+print(my_string)
+print(c)
