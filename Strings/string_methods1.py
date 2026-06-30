@@ -109,3 +109,21 @@ my_list = ["abc", "lalla", "python", "programming", 72, 81, 64]
 my_string = " ".join(str(i) for i in (my_list))
 print(my_string)
 print(type, (my_string))
+
+
+# Count, Startswith, Endswith, Index,
+# Find, Replace, Strip
+
+
+my_string = "khwaish adhuri ho toh rabb kitna yaad aata hai "
+
+c = my_string.count("k")
+print(c)
+
+
+c = my_string.count("a")
+print(c)
+
+
+c = my_string.count("i")
+print(c)
