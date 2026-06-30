@@ -149,3 +149,27 @@ print(c)
 
 c = my_string.endswith("the")
 print(c)
+
+
+# Index string method
+
+my_string = "hello world"
+
+c = my_string.index("e")
+print(c)
+
+
+c = my_string.index("l")
+print(c)
+
+
+# Find string method
+
+my_string = "hello world"
+
+c = my_string.find("l")
+print(c)
+
+
+c = my_string.find("z")
+print(c)
