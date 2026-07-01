@@ -4,7 +4,6 @@ Dictionary :- A dictionary in Python is a collection that stores data in key-val
 """
 
 """
-Question 1:
 Create two dictionaries to store student information and print them.
 Also, check the data type of a dictionary using type().
 """
@@ -17,8 +16,7 @@ print(type(x))
 
 
 """
-Create a dictionary containing multiple key-value pairs
-and print the dictionary along with its data type.
+Create a dictionary containing multiple key-value pairs and print it.
 """
 
 x = {
@@ -30,12 +28,10 @@ x = {
 }
 
 print(x)
-print(type(x))
 
 
 """
 Create a dictionary using both string keys and integer keys.
-Print the dictionary and check its data type.
 """
 
 x = {
@@ -49,4 +45,3 @@ x = {
 }
 
 print(x)
-print(type(x))
