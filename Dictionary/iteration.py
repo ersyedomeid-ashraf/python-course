@@ -37,3 +37,18 @@ for v in my_dict.values():
     total_marks = total_marks + v
 
 print(total_marks)
+
+
+"""
+Using the items() method, write a Python program to iterate through a dictionary and display each 
+key and its corresponding value in the format : key -> value
+"""
+my_dict = {
+    "name": "yash",
+    "age": 25,
+    "gender": "male",
+    "adress": "delhi",
+}
+
+for k, v in my_dict.items():
+    print(f"{k} -> {v}")
