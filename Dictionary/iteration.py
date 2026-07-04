@@ -52,3 +52,33 @@ my_dict = {
 
 for k, v in my_dict.items():
     print(f"{k} -> {v}")
+
+
+# Write a Python program to print all the values of a dictionary.
+
+my_dict = {
+    "name": "Sameer",
+    "age": 19,
+    "gender": "male",
+}
+
+for k in my_dict.values():
+    print(k)
+
+
+# Write a Python program to calculate and print the total marks stored in a dictionary.
+
+my_dict = {
+    "history": 67,
+    "conputer": 88,
+    "science": 90,
+    "english": 99,
+    "urdu": 90,
+}
+
+
+total_marks = 0
+for v in my_dict.values():
+    total_marks = total_marks + v
+
+print(total_marks)
