@@ -29,3 +29,14 @@ if a.count(num) > 0:
     print("Yes")
 else:
     print("No")
+
+
+# Ask a number from user
+# Print yes if number exists in list else print no
+
+num = int(input("Enter a number = "))
+if num in a:
+    print("Yes")
+
+else:
+    print("No")
