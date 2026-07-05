@@ -35,3 +35,11 @@ a.remove(72)
 del a[2]  # del is used to delete variables or list/dictionary elements
 a.clear()  # clear() removes all elements from list or dictionary
 print(a)
+
+
+a = [56, 62, 72, 81, -90, 88, 98]
+print(a)
+
+a.append(200)  # append() is used to add a single elements to a list
+a.append("you can write whatever you want")
+print(a)
