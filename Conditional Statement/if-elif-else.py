@@ -16,7 +16,7 @@ else:
 
 
 """
-Ask five number from user, print which is greatest.
+Ask two number from user, print which is greatest.
 """
 
 num1 = int(input("Enter number 1 = "))
