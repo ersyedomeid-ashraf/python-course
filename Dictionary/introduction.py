@@ -45,3 +45,18 @@ x = {
 }
 
 print(x)
+
+
+"""
+Create a dictionary containing multiple key-value pairs and print it.
+"""
+
+x = {
+    "name": "Anjali",
+    "age": "22",
+    "gender": "Female",
+    "Name": "Aditya",
+    "marks": 66,
+}
+
+print(x)
