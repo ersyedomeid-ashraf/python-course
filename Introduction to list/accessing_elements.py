@@ -17,3 +17,12 @@ print(type(a[4]))
 print(type(b[3]))
 print(type(i[1]))
 print(type(j[2]))
+
+
+a = [21, 34, 56.6, 78.9, "Yash", "Hello", 23.54, 234.78, 45.543]
+
+b = [34, 432, 46.32, 56.787, "Zaman", "Virtus", 765.8, 98.09]
+
+print(a[3])
+
+print(b[5])
