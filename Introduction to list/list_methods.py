@@ -43,3 +43,39 @@ print(a)
 a.append(200)  # append() is used to add a single elements to a list
 a.append("you can write whatever you want")
 print(a)
+
+
+a = [56, 62, 72, 81, -90]
+print(a)
+
+a.append(200)
+a.append("you can write whatever you want")
+print(a)
+
+
+a.insert(3, "Python")
+
+a.insert(2, "Code")
+print(a)
+
+
+a[0] = 220
+a[-3] = 118
+print(a)
+
+
+a.pop(1)
+a.remove(72)
+
+
+del a[2]
+a.clear()
+print(a)
+
+
+a = [56, 62, 72, 81, -90, 88, 98]
+print(a)
+
+a.append(200)
+a.append("you can write whatever you want")
+print(a)
