@@ -82,3 +82,16 @@ for v in my_dict.values():
     total_marks = total_marks + v
 
 print(total_marks)
+
+
+# Write a Python program to print all the values of a dictionary.
+
+my_dict = {
+    "name": "Noman",
+    "age": 19,
+    "gender": "male",
+    "city": "Bareilly",
+}
+
+for k in my_dict.values():
+    print(k)
