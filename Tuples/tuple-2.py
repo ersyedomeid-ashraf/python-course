@@ -42,3 +42,14 @@ my_tuple = tuple(my_list)  # Convert list back to tuple
 
 
 print(my_tuple)
+
+
+# WAP to sort the elements of a tuple in ascending order and display the sorted tuple.
+
+
+t = (45, 12, 89, 23, 67, 5)
+
+sorted_tuple = tuple(sorted(t))
+
+print("Original Tuple:", t)
+print("Sorted Tuple:", sorted_tuple)
