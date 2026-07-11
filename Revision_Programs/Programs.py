@@ -53,3 +53,22 @@ second_half = my_list[mid:]
 
 print("First half:", first_half)
 print("Second half:", second_half)
+
+
+"""
+Write a program to ask the user for a number. Then, from a list of numbers, remove all the numbers
+that can divisible by the number the user entered.
+"""
+
+numbers = [10, 15, 20, 25, 30, 35, 40, 45, 50]
+
+n = int(input("Enter a number: "))
+
+new_list = []
+
+for num in numbers:
+    if num % n != 0:
+        new_list.append(num)
+
+print("Original list:", numbers)
+print("Updated list:", new_list)
