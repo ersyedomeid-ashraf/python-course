@@ -207,3 +207,31 @@ else:  # <=0
 
     else:
         print("Negative")
+
+
+# Comparision Operator
+
+a = 87
+b = 78
+print(a < b)
+
+a = 346
+b = 789
+print(a > b)
+
+a = 8900
+b = 6550
+print(a >= b)
+
+a = 4556
+b = 8875
+print(a <= b)
+print(a != b)
+
+a = 9654
+b = 2345
+print(a != b)
+
+a = 76567
+b = 54345
+print(a == b)
