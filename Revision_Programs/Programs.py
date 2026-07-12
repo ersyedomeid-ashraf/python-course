@@ -116,3 +116,13 @@ if my_string == my_string[::-1]:
 
 else:
     print("It is not a palindrome")
+
+
+# WAP to create a tuple of 10 integers and display the largest and smallest element.
+
+
+t = (12, 45, 67, 23, 89, 5, 34, 76, 18, 50)
+
+print("Tuple:", t)
+print("Largest Element:", max(t))
+print("Smallest Element:", min(t))
