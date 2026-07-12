@@ -126,3 +126,14 @@ t = (12, 45, 67, 23, 89, 5, 34, 76, 18, 50)
 print("Tuple:", t)
 print("Largest Element:", max(t))
 print("Smallest Element:", min(t))
+
+
+# Continue statement
+
+for i in range(1, 11):
+    if i == 6:
+        continue
+    print(i)
+    print("done")
+
+print("Program Finish")
