@@ -253,3 +253,18 @@ print(a**b)
 print(a % b)
 print(a / b)
 print(a // b)
+
+
+# Logical Operator
+"""
+Not reverse the result
+"""
+
+physics = 86
+chemistry = 15
+
+print(physics > 33 and chemistry > 33)
+print(physics > 33 or chemistry > 33)
+
+print(physics > 33)
+print(not physics > 33)
