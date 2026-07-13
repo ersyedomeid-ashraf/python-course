@@ -235,3 +235,21 @@ print(a != b)
 a = 76567
 b = 54345
 print(a == b)
+
+
+# Arithmetic Operators
+
+
+a = 987
+b = 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+
+print(a**b)
+print(a % b)
+print(a / b)
+print(a // b)
