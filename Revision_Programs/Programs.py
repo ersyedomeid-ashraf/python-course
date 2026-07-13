@@ -309,3 +309,13 @@ end = int(input("Enter end number ="))
 
 my_list = [i for i in range(start, end + 1) if i % 2 == 0 and i % 3 == 0]
 print(my_list)
+
+"""
+Write a program to print the list in descending order 
+"""
+
+a = [10, 43, 23, 45, 33, 22, 34, 87, 65, 90, 98, 45]
+
+a.sort()
+a.reverse()
+print(a)
