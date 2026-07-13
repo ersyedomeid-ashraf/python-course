@@ -302,3 +302,10 @@ print(marks, type(marks))
 # dictionary = key-value pairs inside curly braces {}
 marks = {"Syed": 70, "Ayush": 35, "Ambani": 19}
 print(marks, type(marks))
+
+
+start = int(input("Enter start number = "))
+end = int(input("Enter end number ="))
+
+my_list = [i for i in range(start, end + 1) if i % 2 == 0 and i % 3 == 0]
+print(my_list)
