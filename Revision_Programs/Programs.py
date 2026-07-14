@@ -343,3 +343,12 @@ print(my_set)
 
 for i in my_set:
     print(i)
+
+# Another one
+
+my_set = set()
+
+print(my_set)
+print(type(my_set))
+my_set.add(120)
+my_set.add(340)
