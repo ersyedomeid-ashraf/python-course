@@ -363,3 +363,17 @@ print(my_set)
 my_set.add(230)
 
 print(my_set)
+
+
+# membership operator
+
+my_set = {1, 2, 2, 3, 4, 56, 7, 8}
+
+num = int(input("Enter a number = "))
+
+# In the easiest way
+if num in my_set:
+    print("Yes")
+
+else:
+    print("No")
