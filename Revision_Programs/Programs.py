@@ -333,3 +333,13 @@ a = [98, 765, 56, 778, 899, 876, 54, 34, 567, 89, 900, 345]
 
 b = a[::-1]
 print(b)
+
+# Set programs
+
+my_set = {2, 1, 34, 5, 64, 2, 1, "laila", 88.4, 3, 88.4, 2}
+
+print(my_set)
+
+
+for i in my_set:
+    print(i)
