@@ -471,3 +471,15 @@ conversion_factor = 0.621371
 miles = kilometers * conversion_factor
 
 print(f"{kilometers} kilometers is equal to {miles} miles")
+
+
+# Write a program to display calendar .
+
+import calendar
+
+year = int(input("Enter a year = "))
+month = int(input("Enter a month = "))
+
+cal = calendar.month(year, month)
+
+print(cal)
