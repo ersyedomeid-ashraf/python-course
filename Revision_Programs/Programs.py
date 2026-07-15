@@ -436,3 +436,24 @@ if num4 == 0:
 else:
     div_result = num3 / num4
     print(f"Division : {num3}/{num4} = {div_result}")
+
+
+# Write a program to swap two variables.
+
+a = input("Enter the value of the first variable (a) = ")
+b = input("Enter the value of the second variable (b) = ")
+
+print(f"Original values : a = {a}, b = {b}")
+
+temp = a
+a = b
+b = temp
+
+print(f"Swapped values: a={a}, b = {b}")
+
+
+# Write a program to generate a random number.
+
+import random
+
+print(f"Random number: {random.randint(1, 100)}")
