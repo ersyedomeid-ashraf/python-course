@@ -626,3 +626,18 @@ else:
     bill = 100 * 5 + 100 * 7 + (units - 200) * 10
 
 print("Bill:", bill)
+
+
+"""
+Write a program to reverse the order of words.
+"""
+
+my_string = "Python is good"
+
+words = my_string.split()
+print(words)
+
+words = words[::-1]
+
+result = " ".join(i for i in words)
+print(result)
