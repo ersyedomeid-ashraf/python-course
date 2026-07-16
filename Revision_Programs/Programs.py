@@ -563,3 +563,21 @@ my_set = {33, 45, 90, 98, 77, 67, 68, 78, 98, 56, 4556, 778887, 544, 5678, 889}
 
 my_set.clear()
 print(my_set)
+
+
+"""
+Write a program to find common elements in three lists using sets.
+"""
+
+list1 = [45, 3, 4, 4, 5, 56, "laila", 67, 76, 5, 4, 3, 4556, "tinaa", 654, 767, 678]
+list2 = [4, 5, 654, 45, 789, 78, 899, 87, 667, 66, 55, "laila"]
+list3 = [5, 4, 3, "laila", "tina", 45, 4556, 654, 767]
+
+set1 = set(list1)
+set2 = set(list2)
+set3 = set(list3)
+
+x = set1.intersection(set2)
+result = x.intersection(set3)
+
+print(result)
