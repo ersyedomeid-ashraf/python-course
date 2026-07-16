@@ -672,3 +672,20 @@ for ch in my_string:
         count += 1
 
 print(count)
+
+
+"""
+Write a program to make your own list. Find the sum of all even numbers present in that list.
+"""
+
+my_list = [11, 23, 22, 44, 53, 65, 45, 88, 94, 20, 50]
+
+total = 0
+
+for i in range(0, len(my_list)):
+
+    if my_list[i] % 2 == 0:
+        total = total + my_list[i]
+
+
+print(total)
