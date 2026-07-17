@@ -70,3 +70,22 @@ def add():
 
 
 add()
+
+
+def sub():
+
+    num1 = int(input("Enter a num1 = "))
+    num2 = int(input("Enter a num2 = "))
+    num3 = int(input("Enter a num3 = "))
+    num4 = int(input("Enter a num4 = "))
+    num5 = int(input("Enter a num5 = "))
+    num6 = int(input("Enter a num6 = "))
+    num7 = int(input("Enter a num7 = "))
+    num8 = int(input("Enter a num8 = "))
+    num9 = int(input("Enter a num9 = "))
+    num10 = int(input("Enter a num10 = "))
+
+    print(f"Sub {num1 - num2}")
+
+
+sub()
