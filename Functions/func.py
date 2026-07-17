@@ -40,3 +40,11 @@ def sub():
 
 
 sub()
+
+
+def add(a, b):
+    print(a + b)
+
+
+add(12, 43)
+add(756, 3546)
