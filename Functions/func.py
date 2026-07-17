@@ -29,3 +29,14 @@ def add():
 
 
 add()
+
+
+def sub():
+
+    num1 = int(input("Enter a num1 = "))
+    num2 = int(input("Enter a num2 = "))
+
+    print(f"Sub {num1 - num2}")
+
+
+sub()
