@@ -48,3 +48,10 @@ def add(a, b):
 
 add(12, 43)
 add(756, 3546)
+
+
+def sub(a, b):
+    print(a - b)
+
+
+sub(345677, 5432)
