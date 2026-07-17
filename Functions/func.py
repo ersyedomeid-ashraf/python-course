@@ -55,3 +55,18 @@ def sub(a, b):
 
 
 sub(345677, 5432)
+
+
+def add():
+
+    num1 = int(input("Enter a num1 = "))
+    num2 = int(input("Enter a num2 = "))
+    num3 = int(input("Enter a num3 = "))
+    num4 = int(input("Enter a num4 = "))
+    num5 = int(input("Enter a num5 = "))
+    num6 = int(input("Enter a num6 = "))
+
+    print(f"Sum {num1 + num2 + num3 + num4 + num5}")
+
+
+add()
