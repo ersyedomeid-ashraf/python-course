@@ -118,3 +118,14 @@ x = int(input("Enter a number 1 = "))
 y = int(input("Enter a number 2 = "))
 
 sub(x, y)
+
+
+def sub(a, b):
+
+    print(a * b)
+
+
+x = int(input("Enter a number 1 = "))
+y = int(input("Enter a number 2 = "))
+
+sub(x, y)
