@@ -140,3 +140,15 @@ x = int(input("Enter a number 1 = "))
 y = int(input("Enter a number 2 = "))
 
 sub(x, y)
+
+
+# Write a program to Create a function square(n) that prints the square of a number.
+
+
+def square(n):
+    print(n * n)
+
+
+num = int(input("Enter a number: "))
+
+square(num)
