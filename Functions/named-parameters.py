@@ -81,3 +81,21 @@ def total_marks(physics, chemistry, biology, maths, english):
 
 
 total_marks(99, 98, 67, english=99, maths=96)
+
+
+# Another one
+
+
+def total_marks(physics, chemistry, biology, maths, english):
+
+    print(f"Your marks in physics = {physics}")
+    print(f"Your marks in chemistry = {chemistry}")
+    print(f"Your marks in biology = {biology}")
+    print(f"Your marks in maths = {maths}")
+    print(f"Your marks in english = {english}")
+
+    total = physics + chemistry + biology + maths + english
+    print(f"Your total marks = {total}")
+
+
+total_marks(64, 78, 86, 98, 90)
