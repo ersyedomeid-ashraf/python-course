@@ -99,3 +99,21 @@ def total_marks(physics, chemistry, biology, maths, english):
 
 
 total_marks(64, 78, 86, 98, 90)
+
+
+# Now we used Named Parameter
+
+
+def total_marks(physics, chemistry, biology, maths, english):
+
+    print(f"Your marks in physics = {physics}")
+    print(f"Your marks in chemistry = {chemistry}")
+    print(f"Your marks in biology = {biology}")
+    print(f"Your marks in maths = {maths}")
+    print(f"Your marks in english = {english}")
+
+    total = physics + chemistry + biology + maths + english
+    print(f"Your total marks = {total}")
+
+
+total_marks(chemistry=78, maths=70, english=94, biology=76, physics=89)
