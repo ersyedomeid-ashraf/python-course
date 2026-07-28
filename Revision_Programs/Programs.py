@@ -1126,3 +1126,14 @@ def total_marks(physics, chemistry, biology, maths, english):
 
 
 total_marks(chemistry=89, maths=98, english=75, biology=66, physics=90)
+
+
+def add():
+
+    num1 = int(input("Enter a num1 = "))
+    num2 = int(input("Enter a num2 = "))
+
+    print(f"Sum {num1 + num2}")
+
+
+add()
