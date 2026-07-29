@@ -1199,3 +1199,17 @@ check_palindrome("civic")
 check_palindrome("refer")
 check_palindrome("anaaa")
 check_palindrome("rotator")
+
+
+"""
+Write a program that takes a character as input and prints whether 
+it's vowels or constant.
+"""
+
+char = input("Enter a character = ")
+
+if char == "a" or char == "e" or char == "i" or char == "o" or char == "u":
+    print("Vowel")
+
+else:
+    print("Consonant")
