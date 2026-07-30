@@ -1367,3 +1367,24 @@ for num in my_list:
     product = product * num
 
 print(product)
+
+
+"""
+Write a program to ask a string from user. Count the number of uppercase and lowercase
+character in that string.
+"""
+
+my_string = "abcde12345ABCD"
+
+lower_count = 0
+upper_count = 0
+
+for ch in my_string:
+    if ch.isupper():
+        upper_count += 1
+
+    elif ch.islower():
+        lower_count += 1
+
+print(upper_count)
+print(lower_count)
