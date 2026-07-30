@@ -1317,3 +1317,20 @@ for num in numbers:  # Add only numbers that are not divisible by n
 
 print("Original list:", numbers)
 print("Updated list:", new_list)
+
+
+"""
+Write a program to make  your own list. Find the sum of all numbers divisible by 3 and 4 in that list.
+"""
+
+my_list = [12, 24, 33, 36, 45, 60, 64, 54, 84, 600]
+
+total = 0
+
+for i in my_list:
+
+    if i % 3 == 0 and i % 4 == 0:
+        total = total + i
+
+
+print(total)
