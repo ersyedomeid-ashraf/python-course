@@ -1352,3 +1352,18 @@ result = []
 for i in range(len(my_list) - 1, -1, -1):
     result.append(my_list[i])
 print(result)
+
+
+"""
+Make a program that takes a list of integers and returns the product
+of all the elements.
+"""
+
+my_list = [23, 54, 65, 45, 98, 77]
+
+product = 1
+
+for num in my_list:
+    product = product * num
+
+print(product)
