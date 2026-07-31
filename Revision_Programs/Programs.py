@@ -1461,3 +1461,16 @@ x = set1.intersection(set2)
 result = x.intersection(set3)
 
 print(result)
+
+
+"""
+Write a program to ask a string from a user, remove all the duplicates from that string
+and print hat string again (order doesn't matter).
+"""
+
+my_string = "MMMMMMMMiiiiiiiiiiiyyyyyyyaaaaaaaaHHHHHHHuuuuuzzzzzzzuuuuurrrrrrrrr"
+
+result = set(my_string)
+print(result)
+joined_string = " ".join(result)
+print(joined_string)
