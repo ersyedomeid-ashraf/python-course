@@ -1784,3 +1784,20 @@ my_dict = {
 
 for k in my_dict.keys():
     print(k)
+
+
+# Create a dictionary and remove the last key-value pair using the popitem() method.
+
+my_dict = {
+    "name": "Rahul",
+    "age": "54",
+    "gender": "Male",
+    "Name": "Aditya",
+    "marks": 66,
+}
+
+print(my_dict)
+
+
+my_dict.popitem()
+print(my_dict)
