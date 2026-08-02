@@ -1892,3 +1892,23 @@ a = [43, 55, 78, 77, 89, 90, 34, 67]
 
 b = a[2:6]
 print(b)
+
+
+# Ask a number from user
+# Print yes if number exists in list else print no
+
+num = int(input("Enter a number = "))
+if num in a:
+    print("Yes")
+
+else:
+    print("No")
+
+
+# Another way to check element presence using count()
+
+num = int(input("Enter a number = "))
+if a.count(num) > 0:
+    print("Yes")
+else:
+    print("No")
