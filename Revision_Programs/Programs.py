@@ -1873,3 +1873,22 @@ print(type(a[4]))
 print(type(b[3]))
 print(type(i[1]))
 print(type(j[2]))
+
+
+"""
+Write a slicing expression to get the first 4 elements.
+"""
+a = [43, 55, 78, 77, 89, 90, 34, 67]
+
+b = a[:4]
+print(b)
+
+
+"""
+Write a slicing expression to get the elements from 78 to 34.
+"""
+
+a = [43, 55, 78, 77, 89, 90, 34, 67]
+
+b = a[2:6]
+print(b)
