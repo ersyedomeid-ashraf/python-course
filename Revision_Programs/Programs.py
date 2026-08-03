@@ -1925,3 +1925,23 @@ end = int(input("Enter end number ="))
 
 my_list = [i for i in range(start, end + 1) if i % 2 == 0 and i % 3 == 0]
 print(my_list)
+
+
+# Break statement
+
+for i in range(1, 100):
+    print(i)
+    if i == 10:
+        break
+
+
+for i in range(200, 5000):
+    if i == 256:
+        break
+    print(i)
+
+
+for i in range(321, 455):
+    if i == 330:
+        break
+    print(i)
