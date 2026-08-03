@@ -1999,3 +1999,25 @@ d = set(b)
 
 result = list(c.intersection(d))
 print(result)
+
+
+my_set = set()
+
+print(my_set)
+print(type(my_set))
+my_set.add(120)
+my_set.add(340)
+
+# methods example
+
+my_set = {4, 5, 6, 7, 8}
+
+print(my_set)
+
+my_set.add(230)
+
+print(my_set)
+
+
+my_set.remove(230)
+print(my_set)
