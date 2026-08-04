@@ -2100,3 +2100,14 @@ c = my_string.strip("@")
 
 print(my_string)
 print(c)
+
+
+# Starts with string method
+
+my_string = "hello python program"
+
+c = my_string.startswith("hello")
+print(c)
+
+c = my_string.startswith("python")
+print(c)
