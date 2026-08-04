@@ -2111,3 +2111,14 @@ print(c)
 
 c = my_string.startswith("python")
 print(c)
+
+
+# Endswith string method
+
+my_string = "the python programming"
+
+c = my_string.endswith("programming")
+print(c)
+
+c = my_string.endswith("the")
+print(c)
