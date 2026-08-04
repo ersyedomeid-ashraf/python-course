@@ -2082,3 +2082,21 @@ print(c)
 
 c = my_string.replace("i", "e")
 print(c)
+
+
+# Strip string method
+
+my_string = "     lalla lalla lori       "
+
+c = my_string.strip()
+
+print(my_string)
+print(c)
+
+
+my_string = "@@@@@@@@@lalla lalla lori       "
+
+c = my_string.strip("@")
+
+print(my_string)
+print(c)
