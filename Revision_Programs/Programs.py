@@ -2046,3 +2046,15 @@ for ch in my_string:  # by value
 
 for i in range(len(my_string) - 1, -1, -1):
     print(my_string[i])
+
+
+# Index string method
+
+my_string = "hello world"
+
+c = my_string.index("e")
+print(c)
+
+
+c = my_string.index("l")
+print(c)
