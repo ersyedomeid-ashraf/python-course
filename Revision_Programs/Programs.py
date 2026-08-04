@@ -2070,3 +2070,15 @@ print(c)
 
 c = my_string.find("z")
 print(c)
+
+
+# Replace string method
+
+my_string = "minimum maximum minimize"
+
+c = my_string.replace("m", "t")
+print(c)
+
+
+c = my_string.replace("i", "e")
+print(c)
