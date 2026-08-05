@@ -2140,3 +2140,9 @@ if my_string == my_string[::-1]:
 
 else:
     print("It is not a palindrome")
+
+# string slicing program
+
+a = "python and code"
+b = a[0:7]  # Get the first 7 characters from the string.
+print(b)
