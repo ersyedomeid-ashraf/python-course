@@ -2146,3 +2146,8 @@ else:
 a = "python and code"
 b = a[0:7]  # Get the first 7 characters from the string.
 print(b)
+
+
+a = "python and code"
+b = a[::-1]  # Reverse the string
+print(b)
