@@ -2189,3 +2189,13 @@ print(x)
 my_tuple = (34, 56, 78, 34, 97, 56, 34)
 x = my_tuple.index(78)
 print(x)
+
+
+# WAP to create a tuple of 10 integers and display the largest and smallest element.
+
+
+t = (12, 45, 67, 23, 89, 5, 34, 76, 18, 50)
+
+print("Tuple:", t)
+print("Largest Element:", max(t))
+print("Smallest Element:", min(t))
