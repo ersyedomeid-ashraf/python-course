@@ -2182,3 +2182,10 @@ print(my_tuple[1])
 my_tuple = (34, 56, 78, 97, 56)
 x = my_tuple.count(56)
 print(x)
+
+
+# Write a Python program to find the index of a given element in a tuple.
+
+my_tuple = (34, 56, 78, 34, 97, 56, 34)
+x = my_tuple.index(78)
+print(x)
