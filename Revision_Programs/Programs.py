@@ -2161,3 +2161,11 @@ print(b)
 a = "python and code"
 b = a[0:]  # Get the complete string.
 print(b)
+
+
+# Write a Python program to create a tuple and display its type.
+
+my_tuple = (23, 45, 66, 86, 90)
+
+print(my_tuple)
+print(type(my_tuple))
