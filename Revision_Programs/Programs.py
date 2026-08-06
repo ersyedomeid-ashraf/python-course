@@ -2199,3 +2199,10 @@ t = (12, 45, 67, 23, 89, 5, 34, 76, 18, 50)
 print("Tuple:", t)
 print("Largest Element:", max(t))
 print("Smallest Element:", min(t))
+
+
+# Write a Python program to count the number of occurrences of a specific element in a tuple.
+
+my_tuple = (44, 54, 86, 90, 94, 56, 72)
+x = my_tuple.count(56)
+print(x)
