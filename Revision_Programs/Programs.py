@@ -2169,3 +2169,9 @@ my_tuple = (23, 45, 66, 86, 90)
 
 print(my_tuple)
 print(type(my_tuple))
+
+
+# Write a Python program to access an element from a tuple using its index.
+
+my_tuple = (34, 56, 78, 97, 56)
+print(my_tuple[1])
