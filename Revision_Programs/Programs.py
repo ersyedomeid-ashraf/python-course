@@ -2175,3 +2175,10 @@ print(type(my_tuple))
 
 my_tuple = (34, 56, 78, 97, 56)
 print(my_tuple[1])
+
+
+# Write a Python program to count the number of occurrences of a specific element in a tuple.
+
+my_tuple = (34, 56, 78, 97, 56)
+x = my_tuple.count(56)
+print(x)
