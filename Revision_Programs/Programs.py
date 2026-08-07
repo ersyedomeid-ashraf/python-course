@@ -2271,3 +2271,15 @@ def largest(num1, num2, num3):
 
 
 largest(233, 465, 421)
+
+
+# Write a program to Create a function square(n) that prints the square of a number.
+
+
+def square(n):
+    print(n * n)
+
+
+num = int(input("Enter a number: "))
+
+square(num)
