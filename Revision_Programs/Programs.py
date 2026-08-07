@@ -2283,3 +2283,10 @@ def square(n):
 num = int(input("Enter a number: "))
 
 square(num)
+
+
+# Write a Python program to traverse and display all elements of a tuple using a for loop.
+
+my_tuple = (34, 56, 78, 34, 97, 56, 34)
+for i in my_tuple:
+    print(i)
