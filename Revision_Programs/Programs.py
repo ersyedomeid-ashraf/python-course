@@ -2218,3 +2218,12 @@ my_dict = {
 
 for k in my_dict.keys():
     print(k)
+
+
+"""
+Write a slicing expression to get the first 4 elements.
+"""
+a = [43, 55, 78, 77, 89, 90, 34, 67]
+
+b = a[:4]
+print(b)
