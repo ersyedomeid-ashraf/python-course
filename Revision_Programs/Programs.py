@@ -2206,3 +2206,15 @@ print("Smallest Element:", min(t))
 my_tuple = (44, 54, 86, 90, 94, 56, 72)
 x = my_tuple.count(56)
 print(x)
+
+
+# Write a Python program to print all the keys of a dictionary.
+
+my_dict = {
+    "name": "lulla",
+    "age": 25,
+    "gender": "male",
+}
+
+for k in my_dict.keys():
+    print(k)
