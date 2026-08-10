@@ -2576,3 +2576,19 @@ my_list = [22, 32, 45, 67, 87, 89, 90, 23]
 average = sum(my_list) / len(my_list)
 
 print("Average =", average)
+
+
+"""
+Write a program to make your own list. Print the largerst number present in that list.
+"""
+
+my_list = [3, 4, 6, 100, 887, 337, 10]
+
+largest = 0
+
+for i in range(0, len(my_list)):
+    if my_list[i] > largest:
+        largest = my_list[i]
+
+
+print(largest)
