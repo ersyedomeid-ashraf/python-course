@@ -2513,3 +2513,16 @@ set2 = set(list2)
 set3 = set(list3)
 
 print(set1 | set2 | set3)
+
+
+"""
+Write a program to find the length of a set.
+"""
+
+my_set = {45, 87, "Kaaluu", 77, 90, "Majnu", 34}
+
+count = 0
+for i in my_set:
+    count += 1
+
+print(count)
