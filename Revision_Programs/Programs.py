@@ -2543,3 +2543,16 @@ def even_odd(num):
 
 even_odd(10)
 even_odd(9)
+
+
+"""
+Write a program that swaps first and last elements of a given list.
+"""
+
+my_list = [10, 20, 30, 40, 50]
+
+n = len(my_list)
+
+my_list[0], my_list[n - 1] = my_list[n - 1], my_list[0]
+
+print(my_list)
