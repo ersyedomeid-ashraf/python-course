@@ -2613,3 +2613,20 @@ for i in range(1, 6):
         print("*", end=" ")
 
     print()
+
+
+"""
+Write a program to calculate how many numbers are divisible by 7 from 1 to 100.
+"""
+
+i = 1
+count = 0
+
+while i <= 100:
+
+    if i % 7 == 0:
+        count = count + 1
+    i = i + 1
+
+
+print(count)
