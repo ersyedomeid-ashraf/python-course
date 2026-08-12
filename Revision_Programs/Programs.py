@@ -2787,3 +2787,13 @@ y = float(b)
 
 z = x + y
 print(z)
+
+
+c = 23
+d = 46
+# Coverting integer values into string values
+x = str(c)
+y = str(d)
+
+z = x + y
+print(z)
