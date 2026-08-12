@@ -2741,3 +2741,11 @@ print(type(x))
 x = 72
 print(x, type(x))
 y = 23.4
+
+
+# float = decimal values
+print(y, type(y))
+
+# str = string/text values
+name = "Syed"
+print(name, type(name))
