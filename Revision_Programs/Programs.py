@@ -2730,3 +2730,14 @@ def largest(num1, num2, num3):
 
 
 largest(9898, 8989, 9988)
+
+
+# int = integer values
+x = 65
+print(x)
+print(type(x))
+
+# int = integer values
+x = 72
+print(x, type(x))
+y = 23.4
