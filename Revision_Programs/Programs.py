@@ -2767,3 +2767,13 @@ print(marks, type(marks))
 # dictionary = key-value pairs inside curly braces {}
 marks = {"Syed": 70, "Ayush": 35, "Ambani": 19}
 print(marks, type(marks))
+
+
+x = "80"
+y = "77"
+# Converting string values into integer values
+a = int(x)
+b = int(y)
+
+z = a + b
+print(z)
