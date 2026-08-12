@@ -2797,3 +2797,13 @@ y = str(d)
 
 z = x + y
 print(z)
+
+
+e = 45
+f = 67
+# Converting integer values into float values
+x = float(e)
+y = float(f)
+
+z = x + y
+print(z)
