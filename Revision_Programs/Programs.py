@@ -2777,3 +2777,13 @@ b = int(y)
 
 z = a + b
 print(z)
+
+
+a = "102.8"
+b = "234.7"
+# Converting string values into float values
+x = float(a)
+y = float(b)
+
+z = x + y
+print(z)
