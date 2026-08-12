@@ -2749,3 +2749,12 @@ print(y, type(y))
 # str = string/text values
 name = "Syed"
 print(name, type(name))
+
+
+# bool = True or False values
+adult = True
+print(adult, type(adult))
+
+# list = multiple values inside square brackets []
+marks = [33, 44, 78, 80, 77]
+print(marks, type(marks))
