@@ -2814,3 +2814,9 @@ age = 20
 
 print(f"your name is {name}")
 print(f"your age is {age}")
+
+
+# "\n is a New line escape sequence."
+
+print("Hello World \nThis is Code and Debug")
+print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
