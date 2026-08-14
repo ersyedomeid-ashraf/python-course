@@ -2820,3 +2820,10 @@ print(f"your age is {age}")
 
 print("Hello World \nThis is Code and Debug")
 print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
+
+
+# "\t is a Tab escape sequnce."
+
+print("This is \t\t\tPython program")
+print("I'm bhuvneshvar\tKumar\tSingh")
+print("I live in \t\tDelhi")
