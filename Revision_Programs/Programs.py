@@ -2835,3 +2835,14 @@ print("Teri mushkil na badhaounga 'chala jaounga'")
 print("ashk aankhon me chupaounga 'chala jaounga'")
 print("apni dehleez pe kuch der 'pada rhne de'")
 print("jaise hii hosh me aaounga 'chala jaaounga'")
+
+
+# \' is a Single Quotation escape sequence.
+
+print('I am pursuing "BCA"')
+print('I live in "Uttar Pradesh"')
+
+# Or we'll write in this form also
+
+print('I love "BMW"')
+print("Ilove 'BMW M5 Competetion'")
