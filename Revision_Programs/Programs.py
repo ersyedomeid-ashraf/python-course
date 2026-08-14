@@ -2827,3 +2827,11 @@ print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
 print("This is \t\t\tPython program")
 print("I'm bhuvneshvar\tKumar\tSingh")
 print("I live in \t\tDelhi")
+
+
+# \" is a Double Quotation escape sequence.
+
+print("Teri mushkil na badhaounga 'chala jaounga'")
+print("ashk aankhon me chupaounga 'chala jaounga'")
+print("apni dehleez pe kuch der 'pada rhne de'")
+print("jaise hii hosh me aaounga 'chala jaaounga'")
