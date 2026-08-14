@@ -2807,3 +2807,10 @@ y = float(f)
 
 z = x + y
 print(z)
+
+
+name = "Syed"
+age = 20
+
+print(f"your name is {name}")
+print(f"your age is {age}")
