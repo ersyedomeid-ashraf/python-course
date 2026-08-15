@@ -2908,3 +2908,17 @@ Computer5 = int(input("Enter Computer 5 = "))
 percentage = (English1 + Hindi2 + Maths3 + Science4 + Computer5) / 5
 
 print(f"Percentage, {percentage}")
+
+
+"""
+Write a program that takes a character as input and prints whether 
+it's vowels or consonant.
+"""
+
+char = input("Enter a character = ")
+
+if char == "a" or char == "e" or char == "i" or char == "o" or char == "u":
+    print("Vowel")
+
+else:
+    print("Consonant")
