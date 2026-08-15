@@ -2880,3 +2880,15 @@ print(number, type(number))
 
 number_float = 66.6
 print(number_float, type(number_float))
+
+
+"""
+Write a program that converts a temprature in Fahrenheit to Celsius.
+The Formula is : Celsius = (Fahrenheit-32) * 5/9
+"""
+
+
+f = float(input("Enter temprature in Fahrenheit = "))
+c = (f - 32) * 5 / 9
+
+print(f"{f} Fahrenheit = {c} Celsius ")
