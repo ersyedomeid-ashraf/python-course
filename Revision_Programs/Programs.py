@@ -3091,3 +3091,14 @@ while i <= num:
     print(i)
 
     i = i + 1
+
+
+name = "Syed Omeid Ashraf"
+age = 20
+gender = "Male"
+city = "Bareilly"
+
+print(name)
+print(age)
+print(gender)
+print(city)
