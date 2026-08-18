@@ -3131,3 +3131,20 @@ while i <= 100:
 
 
 print(total)
+
+
+"""
+Write a program to calculate how many numbers are divisible by 5 from 1 to 200.
+"""
+
+i = 1
+count = 0
+
+while i <= 200:
+
+    if i % 5 == 0:
+        count = count + 1
+    i = i + 1
+
+
+print(count)
