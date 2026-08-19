@@ -3208,3 +3208,18 @@ while i <= 200:
 
 
 print(count)
+
+
+"""
+Write a program to check if the last digit of a number is divisible by 2 or not. 
+"""
+
+num = int(input("enter a number = "))
+
+last_digit = num % 10
+
+if last_digit == 0 or last_digit == 2:
+    print("Yes, it is divisible by 2")
+
+else:
+    print("No, it is not divisible by 2")
