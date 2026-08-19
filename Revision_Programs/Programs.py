@@ -3193,3 +3193,18 @@ while i <= 200:
 
 
 print(count)
+
+
+# Now if we check how many numbers are divisible by 27
+
+i = 1
+count = 0
+
+while i <= 200:
+
+    if i % 27 == 0:
+        count = count + 1
+    i = i + 1
+
+
+print(count)
