@@ -3223,3 +3223,12 @@ if last_digit == 0 or last_digit == 2:
 
 else:
     print("No, it is not divisible by 2")
+
+
+"""
+Write a program to ask a number from the user. print all the numbers from 1 to that numbers.
+"""
+
+num = int(input("Enter a number = "))
+for i in range(1, num + 1):
+    print(i, end=" ")
