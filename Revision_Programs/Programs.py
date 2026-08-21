@@ -3293,3 +3293,18 @@ for i in range(1, 300):
 
 
 print(f"Your answer is {total}")
+
+
+# Now if we check how many numbers are divisible by 13
+
+i = 1
+count = 0
+
+while i <= 200:
+
+    if i % 13 == 0:
+        count = count + 1
+    i = i + 1
+
+
+print(count)
