@@ -3325,3 +3325,18 @@ elif num2 > num1:
 
 else:
     print("Both are equal")
+
+
+# Now if we check how many numbers are divisible by 87
+
+i = 1
+count = 0
+
+while i <= 200:
+
+    if i % 87 == 0:
+        count = count + 1
+    i = i + 1
+
+
+print(count)
