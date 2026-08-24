@@ -54,3 +54,8 @@ print(name, type(name))
 # bool = True or False values
 adult = False
 print(adult, type(adult))
+
+
+# list = multiple values inside square brackets []
+marks = [554, 55, 665, 66, 67, 88]
+print(marks, type(marks))
