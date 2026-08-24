@@ -49,3 +49,8 @@ print(y, type(y))
 # str = string/text values
 name = "Vijay Thalapathy"
 print(name, type(name))
+
+
+# bool = True or False values
+adult = False
+print(adult, type(adult))
