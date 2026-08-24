@@ -59,3 +59,8 @@ print(adult, type(adult))
 # list = multiple values inside square brackets []
 marks = [554, 55, 665, 66, 67, 88]
 print(marks, type(marks))
+
+
+# tuple = multiple values inside parenthesis ()
+marks = (44, 65, 20, 12, 90, 66)
+print(marks, type(marks))
