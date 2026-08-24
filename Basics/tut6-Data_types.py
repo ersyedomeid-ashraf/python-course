@@ -44,3 +44,8 @@ y = 553.4
 
 # float = decimal values
 print(y, type(y))
+
+
+# str = string/text values
+name = "Vijay Thalapathy"
+print(name, type(name))
