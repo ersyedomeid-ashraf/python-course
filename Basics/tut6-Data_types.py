@@ -36,3 +36,11 @@ print(marks, type(marks))
 x = 65
 print(x)
 print(type(x))
+
+
+x = 72
+print(x, type(x))
+y = 553.4
+
+# float = decimal values
+print(y, type(y))
