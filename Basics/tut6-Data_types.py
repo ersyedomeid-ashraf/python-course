@@ -64,3 +64,8 @@ print(marks, type(marks))
 # tuple = multiple values inside parenthesis ()
 marks = (44, 65, 20, 12, 90, 66)
 print(marks, type(marks))
+
+
+# dictionary = key-value pairs inside curly braces {}
+marks = {"Sallu": 99, "Amir": 89, "Shahrukh": 76}
+print(marks, type(marks))
