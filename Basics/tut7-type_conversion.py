@@ -49,3 +49,13 @@ x = "Python"
 y = "Developer"
 z = x + y
 print(z)
+
+
+x = "897"
+y = "765"
+# Converting string values into integer values
+a = int(x)
+b = int(y)
+
+z = a + b
+print(z)
