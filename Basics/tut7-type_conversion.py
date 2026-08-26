@@ -1,6 +1,6 @@
 x = "BMW M5"
 y = "Competetion"
-z = x+y
+z = x + y
 print(z)
 
 x = "80"
@@ -9,7 +9,7 @@ y = "77"
 a = int(x)
 b = int(y)
 
-z = (a+b)
+z = a + b
 print(z)
 
 
@@ -19,7 +19,7 @@ b = "234.7"
 x = float(a)
 y = float(b)
 
-z = (x+y)
+z = x + y
 print(z)
 
 
@@ -29,15 +29,23 @@ d = 46
 x = str(c)
 y = str(d)
 
-z = (x+y)
+z = x + y
 print(z)
 
 
 e = 45
 f = 67
-# Converting integer values into float values 
+# Converting integer values into float values
 x = float(e)
 y = float(f)
 
-z = (x+y)
+z = x + y
+print(z)
+
+
+# Revision
+
+x = "Python"
+y = "Developer"
+z = x + y
 print(z)
