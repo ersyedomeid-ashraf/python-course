@@ -59,3 +59,13 @@ b = int(y)
 
 z = a + b
 print(z)
+
+
+a = "167.8"
+b = "2664.7"
+# Converting string values into float values
+x = float(a)
+y = float(b)
+
+z = x + y
+print(z)
