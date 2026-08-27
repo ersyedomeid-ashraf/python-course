@@ -17,3 +17,10 @@ gender = input("Entered your gender = ")
 print(f"Enter your name {name}")
 print(f"Enter your age {age}")
 print(f"Enter your gender {gender}")
+
+
+name = "Laila"
+age = 19
+
+print(f"your name is {name}")
+print(f"your age is {age}")
