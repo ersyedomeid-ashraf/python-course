@@ -52,3 +52,10 @@ print("Intezaar ek lambaaa intezaaar, saamne khadiii hai phir bhiii intezaar")
 print("This is \t\t\tPython Code")
 print("I'm Himesh\tSingh")
 print("I live in \t\tBareilly")
+
+
+# \" is a Double Quotation escape sequence.
+
+print("My name is 'Salman Khan'")
+print("I write 'Shayari")
+print("I live in 'Mumbai'")
