@@ -4,9 +4,11 @@ print("I love shayari")
 
 # "\n is a New line escape sequence."
 
-print("Hello World \nThis is Code and Debug") 
+print("Hello World \nThis is Code and Debug")
 print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
-print("Tune hiii apne kadam peeche kar liye\nMujh main kahan himmat thi tjhe gawane kii\nTere liye toh me harr shakhs ko thukra deta\nTu zidd tioh krta mjhe paane kii")
+print(
+    "Tune hiii apne kadam peeche kar liye\nMujh main kahan himmat thi tjhe gawane kii\nTere liye toh me harr shakhs ko thukra deta\nTu zidd tioh krta mjhe paane kii"
+)
 
 
 # "\t is a Tab escape sequnce."
@@ -27,12 +29,19 @@ print("I live in 'Bareilly'")
 print('I am pursuing "BCA"')
 print('I live in "Uttar Pradesh"')
 # Or we'll write in this form also
-print("I love \"BMW\"")
-print('Ilove \'BMW M5 Competetion\'')
+print('I love "BMW"')
+print("Ilove 'BMW M5 Competetion'")
 
 
 # "\\ is a Backslash escape sequence."
-#If i want this " Syed\Omeid Ashraf " in my output
+# If i want this " Syed\Omeid Ashraf " in my output
 
 print("My name is Syed\\Omeid Ashraf")
 print("How are\\you")
+
+
+# "\n is a New line escape sequence."
+
+print("Hello World \nThis is Code and Debug")
+print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
+print("Intezaar ek lambaaa intezaaar, saamne khadiii hai phir bhiii intezaar")
