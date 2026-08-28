@@ -45,3 +45,10 @@ print("How are\\you")
 print("Hello World \nThis is Code and Debug")
 print("My name is Syed Omeid Ashraf\nMy age is 20 Years\nMy nGender is Male")
 print("Intezaar ek lambaaa intezaaar, saamne khadiii hai phir bhiii intezaar")
+
+
+# "\t is a Tab escape sequnce."
+
+print("This is \t\t\tPython Code")
+print("I'm Himesh\tSingh")
+print("I live in \t\tBareilly")
