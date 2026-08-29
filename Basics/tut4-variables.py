@@ -41,3 +41,14 @@ z = x + y
 print(x)
 print(y)
 print(z)
+
+
+name = "Noor"
+age = 20
+gender = "Female"
+city = "Delhi"
+
+print(name)
+print(age)
+print(gender)
+print(city)
