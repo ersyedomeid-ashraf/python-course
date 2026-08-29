@@ -52,3 +52,11 @@ print(name)
 print(age)
 print(gender)
 print(city)
+
+
+# you can write in this form also
+
+first_name = "Ayush"
+mid_name = "Kumar"
+last_name = "Paswan"
+print(first_name, mid_name, last_name)
