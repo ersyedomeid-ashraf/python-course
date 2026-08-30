@@ -22,3 +22,11 @@ a = 56
 b = 456
 
 print(a + b)
+
+
+# Subtraction
+
+a = 56844
+b = 4562
+
+print(a - b)
