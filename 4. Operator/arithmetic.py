@@ -30,3 +30,11 @@ a = 56844
 b = 4562
 
 print(a - b)
+
+
+# Multiplication
+
+a = 678678
+b = 4565
+
+print(a * b)
