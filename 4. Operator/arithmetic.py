@@ -38,3 +38,11 @@ a = 678678
 b = 4565
 
 print(a * b)
+
+
+# Division
+
+a = 5978969
+b = 5657
+
+print(a / b)
