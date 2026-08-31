@@ -38,3 +38,8 @@ print(a < b)
 a = 65
 b = 66
 print(a > b)
+
+
+a = 789
+b = 655
+print(a >= b)
