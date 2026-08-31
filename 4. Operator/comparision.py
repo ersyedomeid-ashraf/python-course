@@ -1,4 +1,4 @@
-# Comparision Operator 
+# Comparision Operator
 
 a = 25
 b = 15
@@ -24,3 +24,12 @@ print(a != b)
 a = 354583
 b = 153895
 print(a == b)
+
+
+# Comparision Operator (Revision)
+
+# Comparision Operator
+
+a = 76
+b = 89
+print(a < b)
