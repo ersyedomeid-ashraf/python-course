@@ -43,3 +43,9 @@ print(a > b)
 a = 789
 b = 655
 print(a >= b)
+
+
+a = 6456
+b = 8875
+print(a <= b)
+print(a != b)
