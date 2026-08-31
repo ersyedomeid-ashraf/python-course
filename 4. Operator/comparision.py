@@ -49,3 +49,8 @@ a = 6456
 b = 8875
 print(a <= b)
 print(a != b)
+
+
+a = 647678
+b = 854555
+print(a != b)
