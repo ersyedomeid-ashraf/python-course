@@ -33,3 +33,8 @@ print(a == b)
 a = 76
 b = 89
 print(a < b)
+
+
+a = 65
+b = 66
+print(a > b)
