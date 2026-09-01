@@ -68,3 +68,14 @@ science = 90
 print(sanskrit > 33 and mathematic > 33 and science > 33)
 print(sanskrit > 33 or mathematic > 33 or science > 33)
 print(not sanskrit > 33, not mathematic > 33, not science > 33)
+
+
+english = 34
+mathematic = 67
+science = 89
+hindi = 90
+
+print(english > 33 and mathematic > 33 and science > 33 or hindi > 33)
+print(english > 33 or mathematic > 33 or science > 33 or hindi > 33)
+print(english > 33 or mathematic > 33 or science > 33 or hindi > 33)
+print(not english > 33, not mathematic > 33, not science > 33, not hindi > 33)
