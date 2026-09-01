@@ -33,3 +33,20 @@ print(english > 33 and mathematic > 33 and science > 33 or hindi > 33)
 print(english > 33 or mathematic > 33 or science > 33 or hindi > 33)
 print(english > 33 or mathematic > 33 or science > 33 or hindi > 33)
 print(not english > 33, not mathematic > 33, not science > 33, not hindi > 33)
+
+
+# Logical Operator Revision
+# Result is always in boolean form (Yes/No) (True/False)
+
+"""
+Not reverse the result
+"""
+
+physics = 96
+chemistry = 31
+
+print(physics > 33 and chemistry > 33)
+print(physics > 33 or chemistry > 33)
+
+print(physics > 33)
+print(not physics > 33)
