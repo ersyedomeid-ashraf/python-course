@@ -30,3 +30,20 @@ elif num2 > num1:
 
 else:
     print("Both are equal")
+
+
+"""
+Ask two number from user, print which is smallest. 
+"""
+
+num1 = int(input("Enter number 1 = "))
+num2 = int(input("Enter number 2 = "))
+
+if num1 < num2:
+    print("Num1 is smallest")
+
+elif num2 < num1:
+    print("Num2 is smallest")
+
+else:
+    print("Both are equal")
