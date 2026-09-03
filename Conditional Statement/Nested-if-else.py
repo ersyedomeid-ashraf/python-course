@@ -44,3 +44,16 @@ if num >= 0:
 
 else:
     print("Negative")
+
+
+# This is method 2 :
+
+if num > 0:
+    print("Positive")
+
+else:  # <=0
+    if num == 0:
+        print("Equal to zero")
+
+    else:
+        print("Negative")
