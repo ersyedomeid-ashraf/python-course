@@ -28,3 +28,15 @@ print(my_dict)
 
 my_dict.update({"marks": 99, "address": "Qatar", "Name": "XYZ"})
 print(my_dict)
+
+
+# Revision
+my_dict = {
+    "name": "Ankit",
+    "age": "34",
+    "gender": "Male",
+    "Name": "Anuj",
+    "marks": 66,
+}
+
+print(my_dict)
