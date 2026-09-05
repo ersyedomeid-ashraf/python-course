@@ -95,3 +95,16 @@ my_dict = {
 
 for k in my_dict.values():
     print(k)
+
+
+# Revision
+# Write a Python program to print all the keys of a dictionary.
+
+my_dict = {
+    "name": "Aliya",
+    "age": 26,
+    "gender": "female",
+}
+
+for k in my_dict.keys():
+    print(k)
