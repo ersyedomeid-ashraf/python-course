@@ -76,3 +76,20 @@ x = {
 }
 
 print(x)
+
+
+"""
+Create a dictionary using both string keys and integer keys.
+"""
+
+x = {
+    "name": "Sanjeev",
+    "age": "45",
+    "gender": "Male",
+    "Name": "Aryan",
+    "marks": 98,
+    1: 2,
+    2: 3,
+}
+
+print(x)
