@@ -108,3 +108,20 @@ my_dict = {
 
 for k in my_dict.keys():
     print(k)
+
+
+# Write a Python program to calculate and print the total marks stored in a dictionary.
+
+my_dict = {
+    "history": 89,
+    "conputer": 78,
+    "science": 99,
+    "english": 94,
+}
+
+
+total_marks = 0
+for v in my_dict.values():
+    total_marks = total_marks + v
+
+print(total_marks)
