@@ -46,3 +46,20 @@ print(my_dict)
 
 my_dict.popitem()
 print(my_dict)
+
+
+# Revision
+# Create a dictionary and delete a specific key-value pair using the del keyword.
+
+my_dict = {
+    "name": "Rabiya",
+    "age": "23",
+    "gender": "Female",
+    "Name": "Hania",
+    "marks": 86,
+}
+
+print(my_dict)
+
+del my_dict["gender"]
+print(my_dict)
