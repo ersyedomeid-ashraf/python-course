@@ -63,3 +63,20 @@ print(my_dict)
 
 del my_dict["gender"]
 print(my_dict)
+
+
+# Create a dictionary and remove a specific key-value pair using the pop() method.
+
+my_dict = {
+    "name": "Zarmila",
+    "age": "25",
+    "gender": "Female",
+    "Name": "Sukaina",
+    "marks": 89,
+}
+
+print(my_dict)
+
+my_dict.pop("name")
+my_dict.popitem()
+print(my_dict)
