@@ -80,3 +80,20 @@ print(my_dict)
 my_dict.pop("name")
 my_dict.popitem()
 print(my_dict)
+
+
+# Create a dictionary and remove the last key-value pair using the popitem() method.
+
+my_dict = {
+    "name": "Inaya",
+    "age": "27",
+    "gender": "Female",
+    "Name": "Fabiha",
+    "marks": 66,
+}
+
+print(my_dict)
+
+
+my_dict.popitem()
+print(my_dict)
