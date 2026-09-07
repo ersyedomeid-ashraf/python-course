@@ -201,3 +201,30 @@ for name, details in employee_data.items():
     department = details["department"]
 
     print(f"{name} -> Department: {department}, Total Salary: {total_salary}")
+
+
+"""
+Write a Python program to store student details in a nested dictionary and calculate
+the total marks of each student from a list of marks.
+"""
+student_data = {
+    "Sohail": {
+        "roll_number": 54,
+        "gender": "female",
+        "marks": [80, 94, 67, 99, 69],
+    },
+    "Nishant": {
+        "roll_number": 43,
+        "gender": "female",
+        "marks": [57, 70, 79, 90, 92],
+    },
+    "Lachhuuu": {
+        "roll_number": 45,
+        "gender": "female",
+        "marks": [60, 47, 68, 75, 73],
+    },
+}
+
+for name, details in student_data.items():
+    total = sum(details["marks"])
+    print(f"{name} has scored {total}marks")
