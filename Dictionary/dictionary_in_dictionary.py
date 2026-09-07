@@ -228,3 +228,36 @@ student_data = {
 for name, details in student_data.items():
     total = sum(details["marks"])
     print(f"{name} has scored {total}marks")
+
+
+"""
+Write a Python program to find the total marks of each student and print their name with total marks.
+"""
+
+student_data = {
+    "Sakshiiiiiii": {
+        "roll_number": 26,
+        "gender": "female",
+        "marks": {"physics": 66, "chemistry": 59, "biology": 88},
+    },
+    "Nehaaaaaaaa": {
+        "roll_number": 24,
+        "gender": "female",
+        "marks": {"physics": 86, "chemistry": 79, "biology": 67},
+    },
+    "Javeriyaaa": {
+        "roll_number": 22,
+        "gender": "female",
+        "marks": {"physics": 69, "chemistry": 97, "biology": 89},
+    },
+}
+
+
+for name, details in student_data.items():
+    total = (
+        details["marks"]["physics"]
+        + details["marks"]["chemistry"]
+        + details["marks"]["biology"]
+    )
+
+    print(f"{name} has scored {total} marks")
