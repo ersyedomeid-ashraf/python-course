@@ -128,3 +128,40 @@ for name, details in student_data.items():
     )
 
     print(f"{name} has scored {total} marks")
+
+
+# Revision
+"""
+Create a Python dictionary to store details of multiple students. Each student should have a roll number,
+gender, and marks in Physics, Chemistry, and Maths. Iterate through the dictionary and print
+ each student's name, total marks, and gender.
+"""
+
+student_data = {
+    "Zehra": {
+        "roll_number": 37,
+        "gender": "female",
+        "physics": 77,
+        "chemistry": 60,
+        "maths": 97,
+    },
+    "Sheikh": {
+        "roll_number": 32,
+        "gender": "female",
+        "physics": 88,
+        "chemistry": 74,
+        "maths": 98,
+    },
+    "Huzaifa": {
+        "roll_number": 14,
+        "gender": "female",
+        "physics": 98,
+        "chemistry": 93,
+        "maths": 90,
+    },
+}
+
+for name, details in student_data.items():
+    total = details["physics"] + details["chemistry"] + details["maths"]
+    gender = details["gender"]
+    print(f"{name} -> {total}, gender = {gender}")
