@@ -165,3 +165,39 @@ for name, details in student_data.items():
     total = details["physics"] + details["chemistry"] + details["maths"]
     gender = details["gender"]
     print(f"{name} -> {total}, gender = {gender}")
+
+
+"""
+Employee Salary Create a nested dictionary named employee_data that stores details of 3 employees: 
+-employee_id
+- department 
+- basic_salary 
+- bonus
+"""
+
+employee_data = {
+    "Tarun": {
+        "employee_id": 111,
+        "department": "IT",
+        "basic_salary": 70000,
+        "bonus": 4000,
+    },
+    "Rohit": {
+        "employee_id": 112,
+        "department": "HR",
+        "basic_salary": 75000,
+        "bonus": 6000,
+    },
+    "Fuzail": {
+        "employee_id": 113,
+        "department": "Finance",
+        "basic_salary": 45000,
+        "bonus": 8000,
+    },
+}
+
+for name, details in employee_data.items():
+    total_salary = details["basic_salary"] + details["bonus"]
+    department = details["department"]
+
+    print(f"{name} -> Department: {department}, Total Salary: {total_salary}")
