@@ -62,3 +62,17 @@ Access a dictionary value using the get() method and print the returned value.
 x = my_dict.get("name")
 print(x)
 print(type(x))
+
+
+"""
+Write a Python program to ask the user for a dictionary key and display its value.
+"""
+
+J = input("Enter a key")
+result = my_dict.get(J)
+
+if result is not None:
+    print(result)
+
+else:
+    print("Key does not exist")
