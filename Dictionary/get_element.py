@@ -52,3 +52,13 @@ my_dict = {
 # To get a value
 print(my_dict["name"])
 print(my_dict["age"])
+
+
+"""
+Access a dictionary value using the get() method and print the returned value.
+"""
+
+
+x = my_dict.get("name")
+print(x)
+print(type(x))
