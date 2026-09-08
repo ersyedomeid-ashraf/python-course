@@ -34,3 +34,21 @@ if result is not None:
 
 else:
     print("Key does not exist")
+
+
+# Revision
+"""
+Create a dictionary and access its values using square brackets ([]).
+"""
+
+my_dict = {
+    "name": "Ayush",
+    "age": "24",
+    "gender": "Male",
+    "Name": "Prashant",
+    "marks": 88,
+}
+
+# To get a value
+print(my_dict["name"])
+print(my_dict["age"])
