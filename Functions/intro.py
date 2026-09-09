@@ -20,3 +20,13 @@ def greet():
 
 
 greet()
+
+
+# Revision
+def greet():
+
+    print("Python is easy language")
+    print("Python is my favourite language")
+
+
+greet()
