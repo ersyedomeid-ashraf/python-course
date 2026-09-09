@@ -30,3 +30,12 @@ def greet():
 
 
 greet()
+
+
+def greet():
+
+    print("I live in Bareilly")
+    print("My fav car is BMW M5 COMPETITION")
+
+
+greet()
