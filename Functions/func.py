@@ -152,3 +152,12 @@ def square(n):
 num = int(input("Enter a number: "))
 
 square(num)
+
+
+# Revision
+def add():
+
+    num1 = 389987
+    num2 = 765456
+
+    print(num1 + num2)
