@@ -36,3 +36,12 @@ for i in range(1, 31):
     print("done")
 
 print("Program Finish")
+
+
+for i in range(221, 216):
+    if i == 119:
+        continue
+    print(i)
+    print("done")
+
+print("Program Finish")
