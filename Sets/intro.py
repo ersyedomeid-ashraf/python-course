@@ -28,3 +28,7 @@ print(c)
 my_set = {2, 4, 3443, 233, 233, "Namrood", "Shaitaan", 89989, 6767, 78}
 
 print(my_set)
+
+
+for i in my_set:
+    print(i)
