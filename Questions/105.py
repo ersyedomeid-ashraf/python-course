@@ -16,3 +16,20 @@ def check_number(num):
 num = int(input("Enter a number = "))
 
 check_number(num)
+
+
+"""
+Write a program to create a function that takes a number
+and returns its cube.
+"""
+
+
+def cube(num):
+    return num * num * num
+
+
+num = int(input("Enter a number = "))
+
+result = cube(num)
+
+print(f"Cube = {result}")
