@@ -16,3 +16,18 @@ for n in numbers:
 
 print("Even numbers:", even)
 print("Odd numbers:", odd)
+
+
+"""
+WAP to input a sentence from the user and create a set of unique words present in the sentence.
+Display the set and the total number of unique words.
+"""
+
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+unique_words = set(words)
+
+print("Unique words:", unique_words)
+print("Total unique words:", len(unique_words))
