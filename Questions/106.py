@@ -31,3 +31,19 @@ unique_words = set(words)
 
 print("Unique words:", unique_words)
 print("Total unique words:", len(unique_words))
+
+
+"""
+WAP to input two sets and display the common elements as well as the elements
+which are present in only one of the two sets.
+"""
+
+
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+common = A & B
+different = A ^ B
+
+print("Common elements:", common)
+print("Different elements:", different)
