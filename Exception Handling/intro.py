@@ -30,3 +30,19 @@ except:
     print("Some error occurred")
 
 print("Done")
+
+
+# Another one
+
+
+try:
+    fruits = ["Apple", "Banana", "Mango"]
+
+    print(fruits[1])
+    print(fruits[2])
+    print(fruits[5])
+
+except:
+    print("Index is not available")
+
+print("Goodbye")
