@@ -10,3 +10,13 @@ try:
 except IndexError:
 
     print("Invalid Index")
+
+
+try:
+    my_list = [2, 5, 6, 7, 88, 0]
+
+    print(my_list[0] / my_list[-1])
+
+except ZeroDivisionError:
+
+    print("You cannot divide by zero")
