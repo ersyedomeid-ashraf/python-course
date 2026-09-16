@@ -15,3 +15,18 @@ except:
 
 print("Done")
 print("Goodbye")
+
+
+# Aonther one
+
+try:
+    numbers = [10, 20, 30, 40, 50]
+
+    print(numbers[0])
+    print(numbers[4])
+    print(numbers[8])
+
+except:
+    print("Some error occurred")
+
+print("Done")
