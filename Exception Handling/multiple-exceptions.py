@@ -54,3 +54,17 @@ except IndexError:
     print("Index is not available")
 
 print("Program Done")
+
+
+try:
+    cars = ["BMW", "Audi", "Mercedes", "Toyota", "Honda"]
+
+    print(cars[0])
+    print(cars[2])
+    print(cars[4])
+    print(cars[7])
+
+except IndexError:
+    print("Index is not available")
+
+print("Program Done")
