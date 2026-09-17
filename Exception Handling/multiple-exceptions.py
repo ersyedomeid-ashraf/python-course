@@ -39,3 +39,18 @@ except ZeroDivisionError:
 except:
 
     print("Some error occurred")
+
+
+# Another one
+
+try:
+    names = ["Rahul", "Aman", "Rohit", "Vikas"]
+
+    print(names[0])
+    print(names[2])
+    print(names[6])
+
+except IndexError:
+    print("Index is not available")
+
+print("Program Done")
