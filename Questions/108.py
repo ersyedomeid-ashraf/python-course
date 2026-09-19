@@ -30,3 +30,20 @@ try:
 except ValueError:
 
     print("Invalid input. Please enter an integer.")
+
+
+"""
+Write a Python program to create a list containing five elements. Accept an index from the user and display 
+the element at that index. Handle the IndexError exception for an invalid index.
+"""
+
+try:
+
+    my_list = [87, 67, 99, 62, 22]
+
+    index = int(input("Enter index: "))
+    print("Element:", my_list[index])
+
+except IndexError:
+
+    print("Invalid Index")
