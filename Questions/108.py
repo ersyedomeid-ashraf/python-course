@@ -14,3 +14,19 @@ try:
 except ZeroDivisionError:
 
     print("Cannot divide by zero.")
+
+
+"""
+Write a Python program to accept an integer from the user and display its square. 
+Handle the ValueError exception if the user enters an invalid value.
+"""
+
+try:
+
+    num = int(input("Enter a number: "))
+
+    print("Square:", num**2)
+
+except ValueError:
+
+    print("Invalid input. Please enter an integer.")
