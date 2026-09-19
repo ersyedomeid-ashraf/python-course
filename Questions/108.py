@@ -47,3 +47,24 @@ try:
 except IndexError:
 
     print("Invalid Index")
+
+
+"""
+Write a Python program to accept two numbers and perform division. Handle both ValueError and 
+ZeroDivisionError using separate except clauses.
+"""
+
+try:
+
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    print("Result:", num1 / num2)
+
+except ValueError:
+
+    print("Please enter valid numbers.")
+
+except ZeroDivisionError:
+
+    print("You cannot divide by zero.")
