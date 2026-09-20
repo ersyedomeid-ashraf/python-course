@@ -107,3 +107,21 @@ else:
 
 finally:
     print("Program completed.")
+
+
+"""
+Write a Python program to accept an index from the user and display the corresponding element from a list. 
+Handle both ValueError and IndexError exceptions.
+"""
+
+try:
+    my_list = [10, 20, 30, 40, 50]
+
+    index = int(input("Enter index: "))
+    print("Element:", my_list[index])
+
+except ValueError:
+    print("Please enter an integer index.")
+
+except IndexError:
+    print("Index is out of range.")
