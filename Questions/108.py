@@ -87,3 +87,23 @@ except ZeroDivisionError:
 else:
     print("Result:", result)
     print("Division successful.")
+
+
+"""
+Write a Python program to accept a number from the user and calculate its square. Handle invalid input using except, 
+display a success message using else, and display a completion message using finally.
+"""
+
+try:
+    num = int(input("Enter a number: "))
+
+    print("Square:", num**2)
+
+except ValueError:
+    print("Invalid input.")
+
+else:
+    print("Everything worked fine.")
+
+finally:
+    print("Program completed.")
