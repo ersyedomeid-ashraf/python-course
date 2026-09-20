@@ -68,3 +68,22 @@ except ValueError:
 except ZeroDivisionError:
 
     print("You cannot divide by zero.")
+
+
+"""
+Write a Python program to accept two numbers and perform division. If no exception occurs, 
+display the result and a success message using the else clause.
+"""
+
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    result = num1 / num2
+
+except ZeroDivisionError:
+    print("You cannot divide by zero.")
+
+else:
+    print("Result:", result)
+    print("Division successful.")
