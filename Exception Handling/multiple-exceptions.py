@@ -68,3 +68,14 @@ except IndexError:
     print("Index is not available")
 
 print("Program Done")
+
+
+try:
+
+    num = int(input("Enter a number: "))
+
+    print("Square:", num**2)
+
+except ValueError:
+
+    print("Invalid input. Please enter an integer.")
