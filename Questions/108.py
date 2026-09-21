@@ -125,3 +125,19 @@ except ValueError:
 
 except IndexError:
     print("Index is out of range.")
+
+
+"""
+Write a Python program to create a dictionary containing student names and marks. Accept a student name from the user 
+and display their marks. Handle the KeyError exception if the name does not exist.
+"""
+
+
+try:
+    students = {"Rahul": 85, "Aman": 90, "Rohit": 78}
+
+    name = input("Enter student name: ")
+    print("Marks:", students[name])
+
+except KeyError:
+    print("Student not found.")
