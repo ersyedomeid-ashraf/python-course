@@ -141,3 +141,18 @@ try:
 
 except KeyError:
     print("Student not found.")
+
+
+"""
+Write a Python program to perform an operation on two numbers and use a generic except clause to handle 
+any unexpected exception.
+"""
+
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    print("Result:", num1 / num2)
+
+except:
+    print("Some error occurred.")
