@@ -4,3 +4,9 @@ Skoda slavia
 Virtus gt 
 Good Morning 
 Good Evening
+
+Hello, I am learning Python File Handling.
+Python is my favourite porgramming language
+
+"Yaaad rakhna mera khamosh hojaana 
+meri taqleef ki akhiri had hoti hai..."
