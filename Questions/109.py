@@ -21,3 +21,17 @@ f = open("demo.txt", "r")
 print(f.read())
 
 f.close()
+
+
+"""
+Write a Python program to append some text to an existing file.
+"""
+
+
+f = open("demo.txt", "a")
+
+f.write("\nWelcome to Python")
+
+f.close()
+
+print("Data appended successfully")
