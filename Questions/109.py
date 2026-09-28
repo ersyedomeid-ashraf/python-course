@@ -35,3 +35,16 @@ f.write("\nWelcome to Python")
 f.close()
 
 print("Data appended successfully")
+
+
+"""
+ Write a Python program to count the number of lines in a file.
+"""
+
+f = open("demo.txt", "r")
+
+lines = f.readlines()
+
+print("Number of lines:", len(lines))
+
+f.close()
