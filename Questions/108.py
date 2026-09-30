@@ -171,3 +171,15 @@ try:
 
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
+
+
+"""
+Write a program to handle invalid input exception.
+"""
+
+try:
+    num = int(input("Enter an integer: "))
+    print("You entered:", num)
+
+except ValueError:
+    print("Error: Please enter a valid integer.")
