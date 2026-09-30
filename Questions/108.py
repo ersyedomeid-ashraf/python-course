@@ -183,3 +183,20 @@ try:
 
 except ValueError:
     print("Error: Please enter a valid integer.")
+
+
+"""
+Write a program to handle index out of range exception.
+"""
+
+try:
+    numbers = [10, 20, 30, 40, 50]
+
+    index = int(input("Enter index: "))
+    print("Element:", numbers[index])
+
+except IndexError:
+    print("Error: Index is out of range.")
+
+except ValueError:
+    print("Error: Enter a valid integer.")
