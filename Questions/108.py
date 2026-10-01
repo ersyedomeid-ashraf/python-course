@@ -200,3 +200,24 @@ except IndexError:
 
 except ValueError:
     print("Error: Enter a valid integer.")
+
+
+"""
+Write a program using multiple except blocks.
+"""
+
+try:
+    a = int(input("Enter numerator: "))
+    b = int(input("Enter denominator: "))
+
+    result = a / b
+    print("Result:", result)
+
+except ValueError:
+    print("Error: Invalid input.")
+
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
+
+except Exception:
+    print("Some other error occurred.")
