@@ -221,3 +221,18 @@ except ZeroDivisionError:
 
 except Exception:
     print("Some other error occurred.")
+
+
+"""
+Write a program to demonstrate the use of finally block.
+"""
+
+try:
+    num = int(input("Enter a number: "))
+    print("Number:", num)
+
+except ValueError:
+    print("Invalid input.")
+
+finally:
+    print("Program execution completed.")
