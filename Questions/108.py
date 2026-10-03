@@ -259,3 +259,18 @@ else:
 
 finally:
     print("Thank you!")
+
+
+"""
+Write a program to handle division by zero using exception handling.
+"""
+
+try:
+    a = int(input("Enter the first number: "))
+    b = int(input("Enter the second number: "))
+
+    result = a / b
+    print("Result:", result)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
