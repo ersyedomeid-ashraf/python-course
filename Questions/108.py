@@ -274,3 +274,20 @@ try:
 
 except ZeroDivisionError:
     print("Cannot divide by zero.")
+
+
+"""
+Write a program to handle multiple exceptions.
+"""
+
+try:
+    a = int(input("Enter the first number: "))
+    b = int(input("Enter the second number: "))
+
+    print("Result:", a / b)
+
+except ValueError:
+    print("Please enter valid numbers.")
+
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
