@@ -304,3 +304,23 @@ if sorted(str1.lower()) == sorted(str2.lower()):
     print("The strings are anagrams.")
 else:
     print("The strings are not anagrams.")
+
+
+"""
+Write a program to create a function that returns the largest element in a list.
+"""
+
+
+def find_largest(numbers):
+    largest = numbers[0]
+
+    for num in numbers:
+        if num > largest:
+            largest = num
+
+    return largest
+
+
+numbers = [25, 10, 45, 32, 18]
+
+print("Largest number:", find_largest(numbers))
