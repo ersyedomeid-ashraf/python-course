@@ -378,3 +378,17 @@ for num in numbers:
 
 print("Positive numbers:", positive)
 print("Negative numbers:", negative)
+
+
+"""
+Write a program to replace all negative numbers in a list with zero.
+"""
+
+
+numbers = [10, -5, 20, -8, 15, -2]
+
+for i in range(len(numbers)):
+    if numbers[i] < 0:
+        numbers[i] = 0
+
+print("Updated list:", numbers)
