@@ -358,3 +358,23 @@ for word in words:
         result.append(word)
 
 print("Words with duplicate characters:", result)
+
+
+"""
+Write a program to count the positive and negative numbers in a list.
+"""
+
+
+numbers = [10, -5, 8, -2, 15, -7, 20]
+
+positive = 0
+negative = 0
+
+for num in numbers:
+    if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1
+
+print("Positive numbers:", positive)
+print("Negative numbers:", negative)
