@@ -324,3 +324,20 @@ def find_largest(numbers):
 numbers = [25, 10, 45, 32, 18]
 
 print("Largest number:", find_largest(numbers))
+
+
+"""
+Write a program to find the longest word in a sentence.
+"""
+
+
+sentence = "Python programming is very interesting"
+
+words = sentence.split()
+longest = ""
+
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+print("Longest word:", longest)
