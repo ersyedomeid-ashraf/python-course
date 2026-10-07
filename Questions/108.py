@@ -341,3 +341,20 @@ for word in words:
         longest = word
 
 print("Longest word:", longest)
+
+
+"""
+Write a program to find all words in a sentence that contain duplicate characters.
+"""
+
+
+sentence = "hello apple world programming python"
+
+words = sentence.split()
+result = []
+
+for word in words:
+    if len(word) != len(set(word)):
+        result.append(word)
+
+print("Words with duplicate characters:", result)
