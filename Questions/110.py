@@ -12,3 +12,23 @@ for word in words:
         longest = word
 
 print("Longest word:", longest)
+
+
+"""
+WAP to input a string from the user and count the number of uppercase
+and lowercase characters present in it.
+"""
+
+text = input("Enter a string: ")
+
+upper = 0
+lower = 0
+
+for ch in text:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase characters:", upper)
+print("Lowercase characters:", lower)
