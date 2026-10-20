@@ -62,3 +62,18 @@ n = len(my_list)
 my_list[0], my_list[n - 1] = my_list[n - 1], my_list[0]
 
 print(my_list)
+
+
+"""
+Write a program to reverse the order of words.
+"""
+
+my_string = "Python is good"
+
+words = my_string.split()
+print(words)
+
+words = words[::-1]
+
+result = " ".join(i for i in words)
+print(result)
