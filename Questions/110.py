@@ -49,3 +49,16 @@ elif num2 > num1:
 
 else:
     print("Both are equal")
+
+
+"""
+Write a program that swaps first and last elements of a given list.
+"""
+
+my_list = [10, 20, 30, 40, 50]
+
+n = len(my_list)
+
+my_list[0], my_list[n - 1] = my_list[n - 1], my_list[0]
+
+print(my_list)
